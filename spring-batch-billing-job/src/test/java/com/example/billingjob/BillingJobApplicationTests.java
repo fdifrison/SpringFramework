@@ -19,7 +19,6 @@ import org.springframework.boot.test.system.OutputCaptureExtension;
 @ExtendWith(OutputCaptureExtension.class)
 class BillingJobApplicationTests {
 
-	@Qualifier("jobOk")
 	@Autowired
 	private Job job;
 
